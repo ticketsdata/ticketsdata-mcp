@@ -1,0 +1,22 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "com.ticketsdata/mcp",
+  "title": "TicketsData",
+  "description": "Real-time ticket listings, prices and fees across major ticket marketplaces.",
+  "version": "1.1.0",
+  "websiteUrl": "https://ticketsdata.com",
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.ticketsdata.com/mcp",
+      "headers": [
+        {
+          "name": "Authorization",
+          "description": "Bearer YOUR_MCP_API_KEY. Copy the key from Dashboard, Settings, MCP Access at ticketsdata.com",
+          "isRequired": true,
+          "isSecret": true
+        }
+      ]
+    }
+  ]
+}
