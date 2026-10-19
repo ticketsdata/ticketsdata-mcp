@@ -107,6 +107,8 @@ is capped at 30 calls per minute and 1,000 calls per 24 hours per account, and
 one cross-market report at a time. For bulk or scheduled work use the
 [REST API](https://ticketsdata.com/docs).
 
+[![M8ven Score](https://m8ven.ai/badge/mcp/ticketsdata-ticketsdata-mcp-h788a9?v=d4abea0cad33fd870c0ba16207d3a463)](https://m8ven.ai/mcp/ticketsdata-ticketsdata-mcp-h788a9?s=readme)
+
 ## Docs and support
 
 - Setup guide: [ticketsdata.com/docs#mcp](https://ticketsdata.com/docs#mcp)
